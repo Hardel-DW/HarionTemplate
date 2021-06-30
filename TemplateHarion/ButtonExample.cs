@@ -8,8 +8,8 @@ namespace TemplateHarion {
     public class Button : CustomButton<Button> {
 
         public override void OnCreateButton() {
-            Timer = 30f;
-            MaxTimer = 30f;
+            Timer = 10f;
+            MaxTimer = 10f;
             UseNumber = 4;
             Roles = SuperJesterRoles.Instance;
             SetSprite("TemplateHarion.Resources.Example.png", 125);
