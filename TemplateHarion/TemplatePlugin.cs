@@ -3,7 +3,6 @@ using BepInEx.IL2CPP;
 using BepInEx.Logging;
 using Harion;
 using Harion.Cooldown;
-using Harion.CustomOptions;
 using HarmonyLib;
 
 namespace TemplateHarion {
@@ -12,7 +11,7 @@ namespace TemplateHarion {
     [BepInProcess("Among Us.exe")]
     [BepInDependency(HarionPlugin.Id)]
     public class TemplatePlugin : BasePlugin {
-        public const string Id = "gg.hardel.templateharion";
+        public const string Id = "me.change.please";
         public static ManualLogSource Logger;
 
         public Harmony Harmony { get; } = new Harmony(Id);

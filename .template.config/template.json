@@ -1,0 +1,37 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Hardel",
+    "classifications": [
+        "TemplateHarion"
+    ],
+    "identity": "TemplateHarion",
+    "name": "TemplateHarion",
+    "shortName": "Harion",
+    "tags": {
+        "language": "C#",
+        "type": "project",
+        "platform": ".NET Core"
+    },
+    "sourceName": "TemplateHarion",
+    "preferNameDirectory": true,
+    "symbols": {
+        "pluginId": {
+            "type": "parameter",
+            "description": "BepInEx plugin id",
+            "datatype": "text",
+            "replaces": "me.change.please"
+        },
+        "pluginClass": {
+            "type": "parameter",
+            "description": "Plugin class name",
+            "datatype": "text",
+            "replaces": "TemplatePlugin"
+        },
+        "projectName": {
+            "type": "parameter",
+            "description": "Project Name",
+            "datatype": "text",
+            "replaces": "TemplateHarion"
+        }
+    }
+}
