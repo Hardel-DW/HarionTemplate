@@ -35,9 +35,9 @@ namespace TemplateHarion {
             RoleType = RoleType.Neutral;
             GiveTasksAt = Moment.StartGame;
             Color = new Color(0.819f, 0f, 0.321f, 1f);
-            Name = "Jester";
+            Name = "Super Jester";
             IntroDescription = "Get voted out";
-            TasksDescription = "<color=#2EADFFFF>Jester: You are an Jester, Get voted out</color>";
+            TasksDescription = "<color=#D10052FF>Jester: You are an Jester, Get voted out</color>";
             OutroDescription = "Jester Win";
         }
 

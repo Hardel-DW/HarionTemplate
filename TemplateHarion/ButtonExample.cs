@@ -14,6 +14,7 @@ namespace TemplateHarion {
             Roles = SuperJesterRoles.Instance;
             SetSprite("TemplateHarion.Resources.Example.png", 125);
             DecreamteUseNimber = UseNumberDecremantion.OnClick;
+            Key = SuperJesterRoles.KeyBindExample.Key;
         }
 
         public override void OnClick() => VentUtils.PlaceVent(PlayerControl.LocalPlayer.transform.position);
