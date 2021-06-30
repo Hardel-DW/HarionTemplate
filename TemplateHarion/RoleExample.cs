@@ -13,7 +13,7 @@ namespace TemplateHarion {
     [RegisterInCustomRoles(typeof(SuperJester))]
     public class SuperJester : CustomRole<SuperJester> {
         // Color: D10052FF
-        public static CustomNumberOption JesterPercent = CustomOption.AddNumber("Jester", "<color=#D10052FF>Jester Apparition</color>", 0f, 0f, 100f, 5f);
+        public static CustomNumberOption JesterPercent = CustomOption.AddNumber("Jester", "<color=#D10052FF>Jester Apparition</color>", 0f, 0f, 100f, 5f, GenericGameOption.RoleHolder);
         public static CustomNumberOption NumberJester = CustomOption.AddNumber("Number Jester", 1f, 1f, 10f, 1f, JesterPercent);
         public static CustomKeyBind KeyBindExample = CustomKeyBind.AddCustomKeyBind(KeyCode.A, "Example", "Template Harion");
 

@@ -3,6 +3,7 @@ using BepInEx.IL2CPP;
 using BepInEx.Logging;
 using Harion;
 using Harion.Cooldown;
+using Harion.CustomOptions;
 using HarmonyLib;
 
 namespace TemplateHarion {
@@ -21,6 +22,7 @@ namespace TemplateHarion {
             Harmony.PatchAll();
             RegisterCooldownButton.Register();
             ResourceLoader.LoadAssets();
+            RoleHolder.HudStringFormat = (option, name, value) => $"\n{name}";
         }
     }
 }
