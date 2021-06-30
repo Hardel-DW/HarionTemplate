@@ -8,7 +8,7 @@ using Harion.Enumerations;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace TemplateHarion {
+namespace HarionTemplate {
 
     [RegisterInCustomRoles(typeof(SuperJester))]
     public class SuperJester : CustomRole<SuperJester> {

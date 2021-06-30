@@ -2,17 +2,36 @@
     "$schema": "http://json.schemastore.org/template",
     "author": "Hardel",
     "classifications": [
-        "TemplateHarion"
+        "HarionTemplate"
     ],
-    "identity": "TemplateHarion",
-    "name": "TemplateHarion",
+    "identity": "HarionTemplate",
+    "name": "HarionTemplate",
     "shortName": "Harion",
     "tags": {
         "language": "C#",
         "type": "project",
         "platform": ".NET Core"
     },
-    "sourceName": "TemplateHarion",
+    "sourceName": "HarionTemplate",
+    "sources": [
+        {
+            "modifiers": [
+                {
+                    "exclude": [
+                        ".vs/**",
+                        ".template_config/**",
+                        ".git/**",
+                        ".gitattributes",
+                        ".gitignore",
+                        "LICENSE",
+                        "pack.sh",
+                        "README.md",
+                        "templatepack.csproj"
+                    ]
+                }
+            ]
+        }
+    ],
     "preferNameDirectory": true,
     "symbols": {
         "pluginId": {
@@ -25,13 +44,7 @@
             "type": "parameter",
             "description": "Plugin class name",
             "datatype": "text",
-            "replaces": "TemplatePlugin"
-        },
-        "projectName": {
-            "type": "parameter",
-            "description": "Project Name",
-            "datatype": "text",
-            "replaces": "TemplateHarion"
+            "replaces": "HarionTemplate"
         }
     }
 }

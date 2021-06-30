@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <PackageType>Template</PackageType>
+        <PackageVersion>1.0.0</PackageVersion>
+        <PackageId>HarionTemplate</PackageId>
+        <Authors>Hardel</Authors>
+        <Description>Mod template for Harion</Description>
+
+        <TargetFramework>netstandard2.1</TargetFramework>
+
+        <IncludeContentInPack>true</IncludeContentInPack>
+        <IncludeBuildOutput>false</IncludeBuildOutput>
+        <ContentTargetFolders>content</ContentTargetFolders>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Remove="**\*" />
+        <Content Include="HarionTemplate.sln" />
+        <Content Include="HarionTemplate\**\*" Exclude="**\bin\**;**\obj\**" />
+    </ItemGroup>
+</Project>

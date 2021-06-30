@@ -1,7 +1,7 @@
 ﻿using HarmonyLib;
 using Hazel;
 
-namespace TemplateHarion.Patch {
+namespace HarionTemplate.Patch {
     [HarmonyPatch(typeof(PlayerControl), nameof(PlayerControl.HandleRpc))]
     class HandleRpcPatch {
 

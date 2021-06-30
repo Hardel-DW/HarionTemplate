@@ -5,7 +5,7 @@ using Harion;
 using Harion.Cooldown;
 using HarmonyLib;
 
-namespace TemplateHarion {
+namespace HarionTemplate {
 
     [BepInPlugin(Id)]
     [BepInProcess("Among Us.exe")]

@@ -25,14 +25,14 @@ using UnityEngine;
  * To import elements, there are examples below.
  */
 
-namespace TemplateHarion {
+namespace HarionTemplate {
     public static class ResourceLoader {
         private static readonly Assembly MyAssembly = Assembly.GetExecutingAssembly();
        /* public static GameObject MyGameObject;
         public static Sprite MySprite;*/
 
         public static void LoadAssets() {
-            /* Stream resourceSteam = MyAssembly.GetManifestResourceStream("TemplateHarion.Resources.myBundle");
+            /* Stream resourceSteam = MyAssembly.GetManifestResourceStream("HarionTemplate.Resources.myBundle");
              AssetBundle assetBundle = AssetBundle.LoadFromMemory(resourceSteam.ReadFully());
 
              MyGameObject = assetBundle.LoadAsset<GameObject>("MyGameObject.prefab").DontDestroy();

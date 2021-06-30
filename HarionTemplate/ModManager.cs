@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine;
 
-namespace TemplateHarion {
+namespace HarionTemplate {
     public class ModManager : ModRegistry, IModManager, IModManagerUpdater, IModManagerLink {
 
         /**
@@ -76,7 +76,7 @@ namespace TemplateHarion {
          * The size should be 512 by 512 in 100 pixel per unit.
          * You can use either the ResourceLoader to load the Sprite.
          * Either by dropping your image in the Resource folder and use this line to load Sprite.
-         * SpriteHelper.LoadSpriteFromEmbeddedResources("TemplateHarion.Resources.MyImage.png", 100f).DontDestroy()
+         * SpriteHelper.LoadSpriteFromEmbeddedResources("HarionTemplate.Resources.MyImage.png", 100f).DontDestroy()
          * 
          * Note:
          * If IModManagerUpdater is implemented, a social link to the Github will be automatically created.

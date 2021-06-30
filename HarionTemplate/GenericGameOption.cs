@@ -1,6 +1,6 @@
 ﻿using Harion.CustomOptions;
 
-namespace TemplateHarion {
+namespace HarionTemplate {
     public static class GenericGameOption {
 
         public static CustomOptionHolder RoleHolder = CustomOption.AddHolder("<b><color=#007ACCFF>Template Example Role :</color></b>");

@@ -1,8 +1,8 @@
 ﻿using Harion.Utility.Utils;
 using Harion.Cooldown;
-using SuperJesterRoles = TemplateHarion.SuperJester;
+using SuperJesterRoles = HarionTemplate.SuperJester;
 
-namespace TemplateHarion {
+namespace HarionTemplate {
 
     [RegisterCooldownButton]
     public class Button : CustomButton<Button> {
@@ -12,7 +12,7 @@ namespace TemplateHarion {
             MaxTimer = 10f;
             UseNumber = 4;
             Roles = SuperJesterRoles.Instance;
-            SetSprite("TemplateHarion.Resources.Example.png", 125);
+            SetSprite("HarionTemplate.Resources.Example.png", 125);
             DecreamteUseNimber = UseNumberDecremantion.OnClick;
             Key = SuperJesterRoles.KeyBindExample.Key;
         }
