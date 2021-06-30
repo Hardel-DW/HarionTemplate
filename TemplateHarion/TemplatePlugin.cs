@@ -22,7 +22,7 @@ namespace TemplateHarion {
             Harmony.PatchAll();
             RegisterCooldownButton.Register();
             ResourceLoader.LoadAssets();
-            RoleHolder.HudStringFormat = (option, name, value) => $"\n{name}";
+            GenericGameOption.GameOptionConfiguration();
         }
     }
 }
